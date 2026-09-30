@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GranDT2-backup-master", "GranDT2-backup-master", "{DB5B00E6-91E4-8AA1-F307-41536EC3B513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GranDT", "GranDT2-backup-master\GranDT\GranDT.csproj", "{70729B76-23AC-8847-128B-2B63F67DF424}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70729B76-23AC-8847-128B-2B63F67DF424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70729B76-23AC-8847-128B-2B63F67DF424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70729B76-23AC-8847-128B-2B63F67DF424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70729B76-23AC-8847-128B-2B63F67DF424}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70729B76-23AC-8847-128B-2B63F67DF424} = {DB5B00E6-91E4-8AA1-F307-41536EC3B513}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DBE6687D-DDDD-47A5-8F91-9D9A6DF3C5AD}
+	EndGlobalSection
+EndGlobal

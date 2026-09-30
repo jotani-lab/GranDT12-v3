@@ -1,0 +1,59 @@
+bitacora espacial
+
+7/9 - 2026
+16:00
+
+Hoy creamos la carpeta GranDT, Models (Clases Equipo, Futbolista, Plantilla, Usuario) junto con sus constructores.
+
+Rodriguez Juan
+    - Model/Futbolista 
+        (constructor)
+    - Ayudas en otras Clases
+
+Cardozo Sebastian
+    - Model/Equipo
+    - Model/Plantilla
+    - Model/Usuario
+    - Constructores
+
+Problemas encontrados: 
+Tenemos dudas sobre como poner limites o evitar datos duplicados (ej: emails repetidos en Usuario).
+
+Resolucion de Problemas:
+El profe Duran dijo que se pueden hacer los limites y evitar duplicados en los Service o usando el valor "UQ" (unique) en la base de datos.
+
+¿Que aprendimos?
+Poner limites y duplicados en Service con codigo O  usando UQ en base de datos.
+
+------------------------------------------------------------------------------------------------------------------------
+
+10/9 - 2026
+12:20
+
+Creamos los archivos de las interfaces y los repositorios, empezamos a hacer IRepoEquipo y borramos los constructores de Models porque no van a ser necesarios.
+
+Rodriguez Juan
+    - Borrado de constructores
+    - Correccion de errores en IRepoEquipo
+
+Cardozo Sebastian
+    - Creacion de archivos y carpetas
+    - Primer version de IRepoEquipo
+
+Problemas encontrados:
+Identificamos un problema con los "namespace": que si un archivo de Models tiene "namespace Models;", solo puede ser visto por otros archivos con el mismo namespace.
+
+Resolucion de Problemas:
+Borramos namespace de todos los archivos de Models para que la carpeta Interfaces pueda verlos y asi poder crear las listas como  public "List<Equipo> ObtenerEquipos()"
+
+¿Que aprendimos?
+Aprendimos como funciona namespace y en que casos no usarlo.
+
+
+
+
+
+
+
+
+
